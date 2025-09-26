@@ -1,46 +1,15 @@
-# System Architecture Documentation
+# Day 2: Notion Integration
 
-## Overview
-This directory contains architectural diagrams, system designs, and technical specifications for all automation projects built during the 4-week journey.
+## What We're Building
+Adding Notion as a CRM to our automation system.
 
-## Architecture Diagrams
+## Status
+🚧 Ready to start
 
-### Week 1 - Foundation Systems
-- **Day 1**: HTML Form → Make.com → Google Sheets
-- **Day 2**: Enhanced system with Notion integration  
-- **Day 3**: Advanced Notion workflows with conditional logic
-
-### System Components
-```mermaid
-graph TD
-    A[HTML Contact Form] --> B[Make.com Webhook]
-    B --> C[Data Processing]
-    C --> D[Google Sheets]
-    C --> E[Notion Database]
-    E --> F[Lead Scoring]
-    F --> G[Status Updates]
-
-## Technical Specifications
-
-### Data Flow Architecture
-| Component | Technology | Purpose | Status |
-|-----------|------------|---------|--------|
-| Frontend | HTML/CSS/JS | Data Collection | ✅ Complete |
-| Automation | Make.com | Processing Hub | ✅ Complete |
-| Storage 1 | Google Sheets | Backup & Analytics | ✅ Complete |
-| Storage 2 | Notion | CRM & Management | 🚧 In Progress |
-
-## Integration Patterns
-- **Webhook Triggers**: Real-time data processing
-- **Parallel Processing**: Simultaneous multi-platform updates
-- **Error Handling**: Fallback mechanisms and retry logic
-- **Data Validation**: Input sanitization and format checking
-
-## Security Considerations
-- API key management
-- Webhook security
-- Data encryption in transit
-- Access control policies
+## Goals
+- Connect Make.com to Notion
+- Create lead database
+- Add automatic lead scoring
 
 ---
-📊 **Architecture Evolution**: This documentation grows with each project addition.
+🎯 Let's build a CRM system!

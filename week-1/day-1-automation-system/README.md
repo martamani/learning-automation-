@@ -30,8 +30,12 @@ HTML Contact Form → Make.com Webhook → Google Sheets Storage
 - Debugging abilities (resolved webhook timeouts)
 - Real-world application (functional lead capture system)
 
-## 🔗 Live Demo
-[Add your demo link here when ready]
+## 🎬 Live Demo Video
+[![Day 1 Automation Demo](https://img.youtube.com/vi/qGo92G9oOFk/maxresdefault.jpg)](https://www.youtube.com/watch?v=qGo92G9oOFk)
+
+**Watch the full build process**: See how I created this automation system from scratch.
+
+**Direct link**: https://www.youtube.com/watch?v=qGo92G9oOFk
 
 ## 📁 Project Files
 - HTML contact form code

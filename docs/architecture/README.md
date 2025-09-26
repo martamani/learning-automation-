@@ -1,28 +1,94 @@
 # System Architecture Documentation
 
-Technical diagrams and documentation of system integrations and workflows built during the 4-week journey.
+## Overview
+This directory contains architectural diagrams, system designs, and technical specifications for all automation projects built during the 4-week journey.
 
-## Current Systems
+## Architecture Diagrams
 
-### Day 1: Contact Form Automation
+### Week 1 - Foundation Systems
+- **Day 1**: HTML Form → Make.com → Google Sheets ✅ COMPLETE
+- **Day 2**: Enhanced system with Notion integration 🚧 IN PROGRESS
+- **Day 3**: Advanced Notion workflows with conditional logic ⏳ PLANNED
 
-HTML Form → Make.com Webhook → Google Sheets
-↓ ↓ ↓
-User Input → Data Processing → Auto-Storage
+### System Components
+```mermaid
+graph TD
+    A[HTML Contact Form] --> B[Make.com Webhook]
+    B --> C[Data Processing]
+    C --> D[Google Sheets]
+    C --> E[Notion Database]
+    E --> F[Lead Scoring]
+    F --> G[Status Updates]
 
-**Components:**
-- **Frontend**: HTML5 contact form
-- **Middleware**: Make.com automation platform
-- **Backend**: Google Sheets data storage
-- **Integration**: Webhook-based real-time processing
+## Technical Specifications
 
-## Future Integrations
-- Notion database connections
-- Webflow form integrations  
-- AI-powered data processing
-- Multi-platform synchronization
+### Data Flow Architecture
+|
+ Component 
+|
+ Technology 
+|
+ Purpose 
+|
+ Status 
+|
+|
+-----------
+|
+------------
+|
+---------
+|
+--------
+|
+|
+ Frontend 
+|
+ HTML/CSS/JS 
+|
+ Data Collection 
+|
+ ✅ Complete 
+|
+|
+ Automation 
+|
+ Make.com 
+|
+ Processing Hub 
+|
+ ✅ Complete 
+|
+|
+ Storage 1 
+|
+ Google Sheets 
+|
+ Backup & Analytics 
+|
+ ✅ Complete 
+|
+|
+ Storage 2 
+|
+ Notion 
+|
+ CRM & Management 
+|
+ 🚧 In Progress 
+|
 
-## Technical Decisions Log
-- Chose Make.com over n8n (trial limitations)
-- Selected Google Sheets for simplicity and accessibility
-- Implemented webhook-first architecture for scalability
+## Integration Patterns
+- **Webhook Triggers**: Real-time data processing
+- **Parallel Processing**: Simultaneous multi-platform updates
+- **Error Handling**: Fallback mechanisms and retry logic
+- **Data Validation**: Input sanitization and format checking
+
+## Security Considerations
+- API key management
+- Webhook security
+- Data encryption in transit
+- Access control policies
+
+---
+📊 **Architecture Evolution**: This documentation grows with each project addition.
